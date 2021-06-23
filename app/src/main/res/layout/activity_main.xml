@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd1"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#79F1A4"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t2"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd1"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#0E5CAD"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t3"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd2"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#FCCF31"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t4"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd2"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#F55555"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t5"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd3"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#F761A1"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t6"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd3"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#8C1BAB"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t7"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd4"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#43CBFF"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t8"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd4"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#9708CC"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t9"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd5"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="F97794"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t10"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd5"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#623AA2"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t11"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd6"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#92FFC0"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t12"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd6"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#002661"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t13"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd7"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#EEAD92"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t14"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd7"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#6018DC"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t15"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd8"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#FFF720"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t16"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd8"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#3CD500"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t17"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd9"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#00EAFF"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t18"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd9"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#3C8CE7"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t19"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd10"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#FAEB71"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t20"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd10"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#F8D800"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t21"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd11"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#FEB692"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t22"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd11"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#EA5455"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t23"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd12"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#38F9D7"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t24"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd12"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#43E97B"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t25"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd13"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#2575FC"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t26"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd13"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#6A11CB"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t27"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd14"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#F9D423"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t28"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd14"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#F83600"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t29"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd15"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#CC208E"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t30"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd15"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#6713D2"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t31"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd16"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#FEE140"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t32"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd16"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#FA709A"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t33"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd17"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#90F7EC"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t34"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd17"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#32CCBC"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t35"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd18"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#FF96F9"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t36"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd18"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#C32BAC"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t37"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd19"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#B92B27"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t38"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd19"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#1565C0"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t39"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd20"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#E65C00"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t40"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd20"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#F9D423"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t41"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd21"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#FF416C"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t42"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd21"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#FF4B2B"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t43"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd22"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#A8FF78"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t44"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd22"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#78FFD6"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:id="@+id/t45"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grd23"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:text="#00B09B"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/t46"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="200dp"
+                        android:background="@drawable/grd23"
+                        android:gravity="center|right"
+                        android:paddingRight="15dp"
+                        android:text="#96C93D"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
